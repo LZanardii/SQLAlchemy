@@ -1,6 +1,6 @@
 import sqlalchemy as db
 import sqlalchemy.orm as orm
-from Structure import *
+from structure import *
 
 engine = db.create_engine(DATABASE_CONNECTION, echo=True)
 conn = engine.connect()

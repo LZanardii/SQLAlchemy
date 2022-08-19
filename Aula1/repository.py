@@ -2,7 +2,7 @@ from dataclasses import replace
 import re
 import sqlalchemy as db
 import sqlalchemy.orm as orm
-from Structure import *
+from structure import *
 
 engine = db.create_engine(DATABASE_CONNECTION)
 conn = engine.connect()
